@@ -4,6 +4,7 @@ import java.util.Arrays;
 
 public class offer21 {
     public static void main(String[] args) {
+        Thread thread=new Thread();
          int[] nums=new int[]{1,2,3,4};
         System.out.println(Arrays.toString(exchange(nums)));
     }
